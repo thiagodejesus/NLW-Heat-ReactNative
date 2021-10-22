@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "ReactNative",
-    "slug": "ReactNative",
+    "name": "NLWHeatApp",
+    "slug": "NLWHeatApp",
     "version": "1.0.0",
+    "scheme": "NLWHeatApp",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
