@@ -25,7 +25,7 @@ export function MessageList() {
     }
 
     fetchMessages();
-  });
+  }, []);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -40,7 +40,7 @@ export function MessageList() {
     }, 1000);
 
     return () => clearInterval(timer);
-  });
+  }, []);
 
   return (
     <ScrollView
